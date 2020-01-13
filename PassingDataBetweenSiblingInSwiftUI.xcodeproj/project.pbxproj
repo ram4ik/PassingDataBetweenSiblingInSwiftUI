@@ -13,6 +13,8 @@
 		1DE38E5323CC6B5200F5E00B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DE38E5223CC6B5200F5E00B /* Assets.xcassets */; };
 		1DE38E5623CC6B5200F5E00B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DE38E5523CC6B5200F5E00B /* Preview Assets.xcassets */; };
 		1DE38E5923CC6B5200F5E00B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DE38E5723CC6B5200F5E00B /* LaunchScreen.storyboard */; };
+		1DE38E6123CC6BAC00F5E00B /* CustomerList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE38E6023CC6BAC00F5E00B /* CustomerList.swift */; };
+		1DE38E6323CC6BBB00F5E00B /* CustomerDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE38E6223CC6BBB00F5E00B /* CustomerDetails.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		1DE38E5523CC6B5200F5E00B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1DE38E5823CC6B5200F5E00B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1DE38E5A23CC6B5200F5E00B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DE38E6023CC6BAC00F5E00B /* CustomerList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerList.swift; sourceTree = "<group>"; };
+		1DE38E6223CC6BBB00F5E00B /* CustomerDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerDetails.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				1DE38E5723CC6B5200F5E00B /* LaunchScreen.storyboard */,
 				1DE38E5A23CC6B5200F5E00B /* Info.plist */,
 				1DE38E5423CC6B5200F5E00B /* Preview Content */,
+				1DE38E6023CC6BAC00F5E00B /* CustomerList.swift */,
+				1DE38E6223CC6BBB00F5E00B /* CustomerDetails.swift */,
 			);
 			path = PassingDataBetweenSiblingInSwiftUI;
 			sourceTree = "<group>";
@@ -148,7 +154,9 @@
 			files = (
 				1DE38E4D23CC6B4D00F5E00B /* AppDelegate.swift in Sources */,
 				1DE38E4F23CC6B4D00F5E00B /* SceneDelegate.swift in Sources */,
+				1DE38E6323CC6BBB00F5E00B /* CustomerDetails.swift in Sources */,
 				1DE38E5123CC6B4D00F5E00B /* ContentView.swift in Sources */,
+				1DE38E6123CC6BAC00F5E00B /* CustomerList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

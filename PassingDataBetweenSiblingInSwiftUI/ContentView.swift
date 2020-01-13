@@ -9,8 +9,15 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var selectedNumber: Int = -1
+    
     var body: some View {
-        Text("Hello, World!")
+        VStack {
+            CustomerList(selectedItem: self.$selectedNumber)
+            GeometryReader { g in
+                CustomerDetails(selectedNumber: self.$selectedNumber)
+            }
+        }
     }
 }
 
